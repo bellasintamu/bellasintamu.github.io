@@ -96,6 +96,42 @@
                 margin-bottom: -30px !important;
             }
         }
+
+        @media (max-width: 767px) {
+            .canva-header > .max-w-6xl {
+                padding: 3rem 1rem 0 !important;
+            }
+            .canva-header .grid {
+                row-gap: 1.5rem;
+            }
+            .canva-header .flex.flex-col {
+                padding-bottom: 0 !important;
+            }
+            [data-template-id="header-last-name"] {
+                font-size: clamp(3.5rem, 15vw, 5.5rem) !important;
+                line-height: 1.1 !important;
+            }
+            [data-template-id="header-label"] {
+                font-size: clamp(1rem, 4.8vw, 1.5rem) !important;
+                letter-spacing: 0.15em !important;
+            }
+            [data-template-id="profile-photo"] {
+                height: auto !important;
+                aspect-ratio: 3 / 4;
+            }
+            h2[data-template-id] {
+                font-size: clamp(2rem, 8vw, 3.5rem) !important;
+                line-height: 1.1;
+            }
+            .canva-section > .max-w-6xl {
+                padding-top: 3.5rem !important;
+                padding-bottom: 3.5rem !important;
+            }
+            [data-template-id="download-portfolio-button"] {
+                padding-left: 1.5rem !important;
+                padding-right: 1.5rem !important;
+            }
+        }
     </style>
   <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
   <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
